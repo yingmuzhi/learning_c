@@ -16,7 +16,7 @@
  * 输入输出的格式化不同：首先明确c里面float在使用过程中隐式转换成了double，所以printf时候用%f,%lf都可以。
  *  但是输入时候float占据4字节，long float（double）占据8字节且二者具有自己专门的数据排列格式。故double读入的时候一定使用scanf %lf(long float,即double)
  *
- * 所表达的数的范围不同:char<short<int<float<double
+ * 所表达的数的范围不同:char<short<int=float<double(-m32中,int 为4字节)
  * 整数是补码形式，浮点数是编码形式
  *
  * sizeof()是一个运算符，能够给出某个类型或变量在内存中所占据的字节数

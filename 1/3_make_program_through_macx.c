@@ -1,8 +1,7 @@
 
 /**
  * 使用macos进行编译c语言程序
- * subline text
- * 只能运行这个程序，使用terminal，可以进行输出
+ * 使用sublime text只能运行这个程序，使用terminal可以在运行的时候进行输入输出
  * 在terminal中编译使用gcc
  *  ./a.out
  *  使用vim可以进行编辑

@@ -22,7 +22,7 @@
  *      %lu:unsigned long long
  * （point）printf("");在传入值后会将传入的值扩展为int类型在进行输出。
  * 
- * 十六进制何八进制
+ * 十六进制和八进制
  *      char c = 012;// 为八进制
  *      char b = 0x12;// 为十六进制
  * 但是如果输出的时候想让它以其他进制形式进行输出则需要改变输出形式
@@ -41,11 +41,11 @@
 #include <stdio.h>
 
 int main(int argc, const char* argv[]){
-    printf("sizeof(char)=%ld\n", sizeof(char));
-    printf("sizeof(short)=%ld\n", sizeof(short));
-    printf("sizeof(int)=%ld\n", sizeof(int));
-    printf("sizeof(long)=%ld\n", sizeof(long));
-    printf("sizeof(long long)=%ld\n", sizeof(long long));
+    printf("sizeof(char)=%lu\n", sizeof(char));
+    printf("sizeof(short)=%lu\n", sizeof(short));
+    printf("sizeof(int)=%lu\n", sizeof(int));
+    printf("sizeof(long)=%lu\n", sizeof(long));
+    printf("sizeof(long long)=%lu\n", sizeof(long long));
 
     char c = -1;
     int i = -1;

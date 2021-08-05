@@ -3,7 +3,7 @@
  * 动态申请内存，运行时确定数组大小（主要用于C99之前动态确定数组大小时候）
  * 需要先加载入stdlib.h库
  *      #include <stdlib.h>
- *      int *a;
+ *      int *a = 0;
  *      int numebr;
  *      scanf("%d", &number);
  *      a = (int *)malloc(number * sizeof(int));
